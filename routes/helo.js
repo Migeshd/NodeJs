@@ -13,6 +13,6 @@ const router = express.Router() //this helps in routing
 //     res.json(`Single product ${id}`);
 // })
 
-router.get("/hello1",hellofunction) //yesma chai abha hamile direct function use garcham as we can see hello function ma gara herda req,res sabh huncha 
+router.get("/hello1",hellofunction) 
 
 module.exports=router // all the works carried out on this page are exported by this 
